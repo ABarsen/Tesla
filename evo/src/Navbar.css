@@ -1,0 +1,26 @@
+nav {
+    display: flex;                /* Use flexbox for layout */
+    align-items: center;         /* Align items vertically in the center */
+    justify-content: space-between; /* Space out items evenly */
+    padding: 10px 20px;          /* Add some padding */
+    background-color: #fff;      /* Optional: Set a background color */
+}
+
+.logo {
+    font-size: 24px;             /* Set the font size for the logo */
+    font-weight: bold;            /* Make the logo bold */
+}
+
+li {
+    list-style: none;            /* Remove bullet points from list */
+    display: flex;               /* Use flexbox for list items */
+    gap: 20px;                   /* Space between items */
+    margin: 0;                   /* Remove default margin */
+    padding: 0;                  /* Remove default padding */
+    justify-content: center;
+    text-align: center;
+}
+
+ul {
+    cursor: pointer;            
+}
